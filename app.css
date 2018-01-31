@@ -1,0 +1,218 @@
+body {
+  overflow-x: hidden; }
+
+a {
+  color: white; }
+
+h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 111px; }
+
+ul li {
+  font-family: "Julius Sans One", sans-serif; }
+
+p {
+  font-family: "Julius Sans One", sans-serif;
+  color: black;
+  font-size: 20px; }
+
+h2 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 110px;
+  text-transform: uppercase; }
+
+h3 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 45px;
+  text-transform: uppercase; }
+
+h5 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #5cc; }
+
+.nav-link {
+  margin-left: 150px; }
+
+a {
+  color: white; }
+
+h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 111px; }
+
+ul {
+  margin-top: 0px;
+  padding: 0px;
+  list-style: none; }
+
+ul li {
+  color: white;
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  opacity: 0.8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 6px; }
+
+.nav-container {
+  text-align: center; }
+
+.navbar-fixed-top {
+  margin-left: 390px; }
+
+ul li a {
+  text-decoration: none;
+  display: block;
+  color: white; }
+
+ul li a:hover {
+  background-color: #ccc; }
+
+ul li ul li {
+  display: none; }
+
+ul li:hover ul li {
+  display: block; }
+
+.background {
+  height: 830px;
+  background: url(https://78.media.tumblr.com/384e224b9932dba70b5a3248b1e5c675/tumblr_p2zs40t30H1wya4pjo6_1280.png) center center no-repeat;
+  background-color: black; }
+
+.cover {
+  height: 690px;
+  background: url(https://78.media.tumblr.com/2867fddca2a8f189b79175a0c2e45830/tumblr_p3fds6iY1w1wya4pjo1_250.png) center center no-repeat; }
+
+#banner {
+  text-align: center;
+  font-family: "Alex Brush", cursive;
+  font-size: 111px;
+  color: #ccc; }
+
+.container {
+  padding-top: 150px; }
+
+.mainButtons {
+  text-align: center; }
+
+.btn {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.work {
+  background: url(https://78.media.tumblr.com/534ffd24bd8323d4b213d6f35bb622ed/tumblr_p2zs40t30H1wya4pjo1_400.png);
+  background-attachment: fixed;
+  height: 960px; }
+
+.img-c {
+  width: 185px;
+  height: 185px;
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  left: 26%;
+  top: 36%; }
+
+.img-c img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  transition: 0.2s; }
+
+.img-c:hover img {
+  filter: blur(2px) brightness(60%);
+  box-shadow: 0 0 26px gray; }
+
+.img-c :not(img) {
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  color: antiquewhite;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  transition: 0.2s; }
+
+.img-c:hover :not(img) {
+  opacity: 1; }
+
+.img-c span {
+  top: 30%;
+  right: 43%;
+  font-family: "Limelight", cursive;
+  font-size: 16px; }
+
+img {
+  width: 350px;
+  height: 350px;
+  transition: all 0.2s ease-in;
+  overflow: hidden; }
+
+.card:hover img {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in;
+  filter: grayscale(100%); }
+
+.gal-container {
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  text-align: center; }
+
+#tattoos {
+  background: url(https://78.media.tumblr.com/3eb73e5d5e5f2be300386cf8540b4311/tumblr_p2zs40t30H1wya4pjo7_400.png);
+  background-attachment: fixed; }
+
+.album {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: 0.75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  background: url(https://78.media.tumblr.com/3eb73e5d5e5f2be300386cf8540b4311/tumblr_p2zs40t30H1wya4pjo7_400.png);
+  display: inline-block; }
+
+.card > img {
+  margin-bottom: 0.75rem;
+  max-width: 100%; }
+
+#about {
+  background: url(https://78.media.tumblr.com/608ab5fe4a45e2ac93febd3416b260f0/tumblr_p3ejja7bWf1wya4pjo1_400.png); }
+
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 150px; }
+
+.info {
+  max-width: 100%; }
+
+.med-logo {
+  width: 305px;
+  height: 132px;
+  float: left;
+  margin-right: 150px; }
+
+.ct-container {
+  max-width: 100%;
+  background: url(https://78.media.tumblr.com/608ab5fe4a45e2ac93febd3416b260f0/tumblr_p3ejja7bWf1wya4pjo1_400.png); }
+
+#footer {
+  max-width: 100%;
+  background: url(https://78.media.tumblr.com/608ab5fe4a45e2ac93febd3416b260f0/tumblr_p3ejja7bWf1wya4pjo1_400.png); }
+
+/*# sourceMappingURL=app.css.map */
